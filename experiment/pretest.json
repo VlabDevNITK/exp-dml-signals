@@ -1,0 +1,175 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the fundamental unit of Morse code?",
+      "answers": {
+        "a": "Dashes",
+        "b": "Dots",
+        "c": "Spaces",
+        "d": "Letters"
+      },
+      "explanations": {
+        "a": "",
+        "b": "Morse code is composed of two fundamental signal elements, dots (or dits) and dashes (or dahs). Dots are the shorter signals used to represent individual letters or characters.",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "In what form can Morse code be transmitted?",
+      "answers": {
+        "a": "Only through telegraph lines",
+        "b": "Through wires, radios, sound, light, and more",
+        "c": "Only through mechanical devices",
+        "d": "Only through drumming"
+      },
+      "explanations": {
+        "a": "",
+        "b": "Morse code can be transmitted through various mediums, including wires (telegraph lines), radios, sound (by tapping or drumming), light (by flashing), and even buzzing (as used in some mechanical devices).",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What was the original purpose of Morse code?",
+      "answers": {
+        "a": "Radio communication",
+        "b": "Emergency signalling",
+        "c": "Long-distance message transmission",
+        "d": "Ham radio operation"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "The original purpose of Morse code was indeed for long-distance message transmission through telegraph systems, not radio communication or ham radio operation.",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "How many times longer is a dash compared to a dot in Morse code?",
+      "answers": {
+        "a": "Two times",
+        "b": "Three times",
+        "c": "Four times",
+        "d": "Five times"
+      },
+      "explanations": {
+        "a": "",
+        "b": " A dash in Morse code is three times longer in duration than a dot, not two or four times.",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How are letters separated within a word in Morse code?",
+      "answers": {
+        "a": "One dot",
+        "b": "One dash",
+        "c": "Three dots",
+        "d": "Seven dot"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "Letters within a word in Morse code are separated by a space equal to three dots, not one dot.",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Who primarily uses Morse code today for long-distance communication?",
+      "answers": {
+        "a": "Ham radio operators",
+        "b": "Television broadcasters",
+        "c": "Telephone operators",
+        "d": "Internet service providers"
+      },
+      "explanations": {
+        "a": "Ham radio operators commonly use Morse code for long-distance communication due to its efficiency and effectiveness in low-bandwidth conditions.",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How is a Morse code word separated from another word?",
+      "answers": {
+        "a": "One space equal to a dot",
+        "b": "Two spaces equal to a dot",
+        "c": "Three spaces equal to a dash",
+        "d": "spaces equal to seven dots"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "In Morse code, words are separated by a space equal to seven dots. This longer space helps distinguish between individual words."
+      },
+      "correctAnswer": "d",
+      "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which of the following is NOT mentioned as a medium for transmitting Morse code?",
+        "answers": {
+          "a": "Sound",
+          "b": "Light",
+          "c": "Telegraph lines",
+          "d": "Printing"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": "Printing is not mentioned as a medium for transmitting Morse code in the provided information."
+        },
+        "correctAnswer": "d",
+        "difficulty": "Advanced"
+      },
+      {
+        "question": "What is the purpose of the short silence following each dot or dash in Morse code?",
+        "answers": {
+          "a": "To confuse the recipient",
+          "b": "To save energy",
+          "c": "To separate individual letters",
+          "d": "It has no specific purpose"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "The short silence following each dot or dash in Morse code is used to separate individual letters, making it clear where one letter ends and the next begins.",
+          "d": ""
+        },
+        "correctAnswer": "c",
+        "difficulty": "Advanced"
+      },
+      {
+        "question": "Why is Morse code still relevant today?",
+        "answers": {
+          "a": "It's used for secure military communication.",
+          "b": "It's a fun hobby for enthusiasts.",
+          "c": "It aids communication for individuals with disabilities.",
+          "d": "It's a required skill for all telegraph operators."
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "Morse code is still used today, especially in technologies and devices designed to assist individuals with disabilities, such as communication devices for those who cannot speak or write conventionally. It provides an efficient and versatile means of communication for such individuals.",
+          "d": ""
+        },
+        "correctAnswer": "c",
+        "difficulty": "Advanced"
+      }
+  ]
+}

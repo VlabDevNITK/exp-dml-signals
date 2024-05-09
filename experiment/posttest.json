@@ -1,0 +1,142 @@
+ {
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which Morse code sequence is used for the number 0?",
+      "answers": {
+        "a": ".-...",
+        "b": "-..--",
+        "c": "..-...",
+        "d": "-----"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "In Morse code, each numeral is represented by a unique combination of dots (.) and dashes (-). The Morse code sequence for the number 0 is \"-----.\""
+      },
+      "correctAnswer": "d",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Morse code for the number 2 is:",
+      "answers": {
+        "a": "..---",
+        "b": "-....",
+        "c": ".-..-",
+        "d": "--.-"
+      },
+      "explanations": {
+        "a": "For the number 2, the Morse code is \"..---\"",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Which Morse code character represents the number 7?",
+      "answers": {
+        "a": "-.-.-",
+        "b": "--...",
+        "c": ".-..-",
+        "d": "..---"
+      },
+      "explanations": {
+        "a": "",
+        "b": "For the number 7, the Morse code is \"--...\"",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What Morse code symbol corresponds to the number 99?",
+      "answers": {
+        "a": ".----",
+        "b": "-..-  -..-",
+        "c": "----. ----.",
+        "d": "-.-.- -..-"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "For the number 99, the Morse code is \"----. ----.\"",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What is the Morse code representation for the number 57?",
+      "answers": {
+        "a": "-....",
+        "b": ".....",
+        "c": ".....--...",
+        "d": "-....."
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "For the number 57, the Morse code is \".....--...\"",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Write the Morse code for the number 09.",
+      "answers": {
+        "a": "----- --...",
+        "b": ".---- .....-",
+        "c": "---..",
+        "d": ".....-"
+      },
+      "explanations": {
+        "a": "For the number 09, the Morse code is \"----- --...\"",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Translate the following Morse code sequence into numbers: \"...-- ...-- ...--\"",
+      "answers": {
+        "a": "112",
+        "b": "222",
+        "c": "333",
+        "d": "444"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "The complete translation is \"333,\" and option 'b' corresponds to this sequence.",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Decode this Morse code number: \"----. ---.. .---- ..---\"",
+      "answers": {
+        "a": "9128",
+        "b": "1928",
+        "c": "9281",
+        "d": "9812"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": " The correct decoding is \"9812\" and option 'd' (\"9812\") is the accurate representation of the Morse code."
+      },
+      "correctAnswer": "d",
+      "difficulty": "Advanced"
+    }
+    
+  ]
+}
