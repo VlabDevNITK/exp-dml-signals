@@ -1,5 +1,5 @@
 "use strict";
-const domain = ".dssd.";
+const domain = "..";
 const lab = "Disaster Management Lab";
 const exp = "Exploring morse code : Numbers";
 const domainName = document.querySelector(".domainName");
