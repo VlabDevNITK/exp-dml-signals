@@ -1,6 +1,3 @@
-<!-- Aim of the experiment and a paragraph describing the aim goes here -->
-
-### Aim 
 To acquire the ability to receive and understand Morse code transmissions of numbers.
 
 
