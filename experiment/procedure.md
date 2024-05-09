@@ -3,7 +3,7 @@ Steps explained with screenshot of simulator page can be inlcuded. -->
 ### These procedure steps will be followed on the simulator:
 1.Open the simulation of Morse code Syntax by navigating through the introductory paragraph,and then proceed by selecting the next button located at bottom right corner.
 
-![image1](/experiment/images/image1.png)  
+![image1](image1.png)  
 
 2.Select a number from the slider and click submit button.
 
