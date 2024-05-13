@@ -18,6 +18,7 @@ Mention about only the important references -->
     <ul style="list-style-type: none;">
       <li></li>
       <li>Varun | NITK</li>
+      <li>Hasan Shifan | MITE</li>
       <li>Anusha B Salian | NITK</li>
       <li>shradha shetty | NITK</li>
     </ul></td>
