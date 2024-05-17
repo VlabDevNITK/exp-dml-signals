@@ -1,24 +1,15 @@
-### Introduction:
+### Introduction :
+<p style="text-align: justify;">Emergency signals play a crucial role in maritime and aviation communication, serving to convey critical information about the safety and well-being of vehicles and individuals. These signals are classified into distinct types, each serving a specific purpose.</p>
 
-<p style="text-align: justify;">Morse code numbers are a systematic and efficient way to represent numerical digits using combinations of dots and dashes. They played a pivotal role in the history of telecommunications and continue to be relevant in certain specialized communication fields today. Understanding Morse code numbers provides insights into the development and practical applications of this iconic communication system.</p>
-<p style="text-align: justify;">In Morse code, numbers are represented using a series of dots (.) and dashes (-), just like letters and other characters. Each number from 0 to 9 has a unique Morse code representation. </p>
+**Distress Signal:**
+<p style="text-align: justify;">A distress signal is employed to communicate that a ship, aircraft, or any other vehicle is in imminent danger and requires immediate assistance. In Morse Code, the distress call comprises the repetition of the letters SOS three times, followed by the word DE and the station's callsign thrice. In voice communication, the term MAYDAY is spoken three times, followed by THIS IS and the station's callsign repeated three times. The distress message is mandated to include the callsign, precise location, type of distress, required assistance, and any additional pertinent information for rescue operations. Priority is given to distress signals over all other transmissions. The Morse Code distress frequency is 500 kHz, while the voice distress frequency is 2182 kHz.</p>
 
-<p>Here are the Morse code representations for the numbers:</p>
+**Urgency Signal:**
+<p style="text-align: justify;">An urgency signal indicates that the calling station has a highly urgent message related to the safety of a vehicle or individual. In Morse Code, it consists of three repetitions of the group XXX, while in voice communication, the term PAN PAN is pronounced, followed by the urgency message. The urgency signal takes precedence over other communications, excluding distress signals. Stations receiving the urgency signal must refrain from interfering with the transmission.</p>
 
-<p style="text-align: justify;">
-0  -----
-<br>1  .----
-<br>2  ..---
-<br>3  ...--
-<br>4  ....-
-<br>5  .....
-<br>6  -....
-<br>7  --...
-<br>8  ---..
-<br>9  ----.
-</p>
+**Safety Signal:**
+<p style="text-align: justify;">The safety signal is utilized for issuing weather warnings. In Morse Code, it comprises three repetitions of the letters TTT, and in voice communication, the term SECURITE is followed by the safety message. This signal holds priority over other communications, except distress and urgency signals.</p>
 
-<p style="text-align: justify;">In Morse code, numbers are often used in various applications, including sending numerical values in telegraphy or radio communication. These representations allow for the transmission of numbers in Morse code, adding versatility to the communication system.
-Morse code numbers can be related to binary numbers, where dots and dashes are analogous to binary digits (bits). This binary representation conceptually connects Morse code to digital data encoding and transmission.</p>
-<p style="text-align: justify;">The simplicity and universality of Morse code made it a valuable tool for communication, especially in situations where speech or written language might be impractical. Additionally, Morse code numbers found applications in maritime communication, aviation, and military operations.</p>
-<p style="text-align: justify;">In modern contexts, the principles of Morse code, including its numerical representation, are applied in digital signal processing. Morse code algorithms can be implemented in computer programs for encoding and decoding purposes, demonstrating the adaptability of this historical communication system in contemporary technologies.</p>
+**Test Signal:**
+<p style="text-align: justify;">Test signals are transmitted for the calibration of transmitters or receivers, lasting no longer than 30 seconds. In Morse Code, the signal consists of three series of VVV, while in voice communication, the figures 1, 2, 3, 4, 5 are followed by the station's callsign. The Q code for sending a test signal is QSV.</p>
+

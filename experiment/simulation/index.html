@@ -3,8 +3,6 @@
 <head>
 <meta 	 charset="UTF-8">
 <title>SOLVE</title>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 <script type="text/javascript" src="js/script.js"></script>
@@ -47,23 +45,29 @@
 
 <body style="margin:0; font-family:verdana;">
 <div id="simscreen">
-<div id="title"><h3>Exploring Morse Code: Numbers</h3></div>
+<div id="title"><h3>Exploring HAM RADIO : SIGNALS</h3></div>
 
 <div class="simsubscreen" id="canvas0" >
 	<h4 class="incanvas">Objective:</h4>
-	<p class="incanvas" style="font-size:14px;">To acquire the ability to receive and understand Morse code transmissions of numbers.</p>
-    <!-- <p></p> --><br/>
-
+	<p class="incanvas" style="font-size:14px;">To acquire and understand the use of Ham Radio Emergency signals.
+	</p><br/>
 	<br>
-	<h4 class="incanvas">Description:</h4>
-
-	<p  style="text-align: justify;padding-right: 40px;font-size: 14px;margin: 2px;margin-top: 5px;line-height: 1.5;">
-        Morse code serves as a means of conveying textual information through a series of intermittent tones, lights, or clicks. Its unique encoding allows it to be comprehended directly by a proficient listener or observer, eliminating the need for specialized equipment. It is a system of dots and dashes that can be used to send messages over long distances. It was originally used by telegraph operators to send messages using electrical pulses. Radio communicators later adapted the code to use it as an auditory language.
-<br>
-        <br>
-        Morse code can be used to send messages using Wires, Radios, Sound, Light.
-        Messages can be sent by Tapping, Drumming, Buzzing, Clicking, or flashing light.
-        Morse code is still used today by many ham radio operators. It's a recognised mode of communication in the amateur radio community, and some operators enjoy the challenge and efficiency of using Morse code for long-distance communication.It is also used in emergency signals and in technology to help disabled people communicate.</p>	
+	<h4 class="incanvas">Discription:</h4>	
+	<p  class="" style="font-size:14px;margin-left: 5px;margin-right: 40px;text-align: justify;line-height: 1.1;margin-top: 5px;">	
+	Amateur radio operators employ specific emergency signals and procedures to 
+	indicate distress, urgency, safety, test concerns, ensuring effective communication in emergency situations.
+		</p>
+	<p  class="" style="font-size:14px;margin-left: 5px;margin-right: 40px;text-align: justify;line-height: 1.1;">	
+		<strong>Distress Signal:</strong>In cases of immediate danger, a distress signal is used to urgently seek help. 
+		The Morse Code distress call includes three SOS repetitions, the word DE, and the station's callsign said three times.
+		 In voice, it's "MAYDAY" said three times, followed by "THIS IS" and the callsign thrice. The distress message must include callsign, 
+		 exact location, type of distress, assistance needed, and other relevant details. Distress calls take precedence over other 
+		 transmissions. Stations hearing it must stop potential interference, listen, and offer assistance. Morse Code distress frequency is
+		  500 kHz; voice frequency is 2182 kHz.
+				</p>
+    <p  style="font-size:14px;margin-left: 5px;margin-right: 40px;text-align: justify;line-height: 1.1;"><b>Urgency Signal:</b> This signal indicates a very urgent message about the safety of a ship, aircraft, or person. In Morse Code, it's three repetitions of XXX, and in voice, it's "PAN PAN" followed by the urgency message. It takes priority over other communications, except distress, and stations hearing it must avoid interference.</p>
+	<p  style="font-size:14px;margin-left: 5px;margin-right: 40px;text-align: justify;line-height: 1.1;"><b>Safety Signal:</b>This signal is sent to provide weather warnings. In Morse Code, it involves three repetitions of the letters T T T, and in voice, it's "SECURITE" followed by the safety message. It takes precedence over other communications, except distress and urgency signals. </p>
+	<p  style="font-size:14px;margin-left: 5px;margin-right: 40px;text-align: justify;line-height: 1.1;"><b>Test Signal:</b>Test signals are transmitted for adjusting a transmitter or receiver, lasting no more than 30 seconds. In Morse Code, they consist of three series of VVV, and in voice, it's the figures 1,2,3,4,5 followed by the station's callsign. The Q code for sending a test signal is QSV. </p>
 </div>
 
 <div id="nav">
@@ -72,70 +76,222 @@
 
 </div>
 
-<div class="simsubscreen" id="canvas1" style="visibility:hidden;">
+<div class="simsubscreen" id="canvas1" name="canvas1" style="visibility:hidden;">
 	<strong class="incanvas">STEP</strong>
 	<span class="circlebg">&nbsp;1&nbsp;</span>
-	<p class="steptext">&nbsp;Select a number in the range of 0-9.</p>
+	<p class="steptext">&nbsp;Select a syntax from the dropdown menu.</p>
 	<br><br><br><br><br><br>
-
-	<label for="textInput" class="selectNumber">Select the number: </label>
-                <input type="number" id="numberInput" name="numberInput" min="0" max="9" maxlength="1" oninput="numberMorse()" >
-                <br><br><br><br> <br><br>
-                <label for="slider">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                <!-- <input type="range" id="slider" min="0" max="9" step="1">	 -->
-
-            <input type="range" min="0" max="9" id="slider" min="0" max="9" step="1" onchange="numberMorse()">
-            <p style="text-align: left;font-size: small;margin-top: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9</p>
-                <br><br>
-	
-	<br><br>
-	<p id="warningMessage" class="warning" style="color: red;">Error: Only numeric values in the range of 0 - 9 allowed</p>
-	<div id="nav">
-		
-	<button type="submit" onclick="navNext()" id="submit" class="button" value="Submit">Submit</button>
-	
-	</div>
+    <div id="show">
+		<p id="syntaxS">Select the syntax:</p>
+		<button id="clickHere" onclick="showMe()">Click Here!</button>
 	</div>
 
+	<div id="SS-selected" style="visibility: hidden;">
+	<p class="SS-1" id="SS-1">Selected Signal:</p>
+	<p class="SS-2" id="SS-2" ></p>
+	<!-- <p id="Testing"></p> -->
+
+	<button type="submit" onclick="navNext()" id="submit" class="submit" value="Submit">Submit</button>
+	</div>
+
+
+
+	<div id="container" class="hidden">
+
+	  <div class="button-1" id="button-1" onclick="ButtonClicked1()" >Distress Signal</div>
+	  <div class="button-2" id="button-2" onclick="ButtonClicked2()">Urgency Signal</div>
+	  <div class="button-3" id="button-3" onclick="ButtonClicked3()">Safety Signal</div>
+	  <div class="button-4" id="button-4" onclick="ButtonClicked4()">Test <br> Signal</div>
+
+	</div>
+	
+      
 </div>
-   <div class="simsubscreen" id="canvas2" name="canvas2" style="visibility:hidden;">
-	<strong class="incanvas">STEP</strong>
-	<span class="circlebg">&nbsp;2&nbsp;</span>
-	<p class="steptext">&nbsp;Click on the play button to observe the Morse code equivalent of the number entered.
-	</p>
-	<br><br><br><br><br><br>
- 
-	 <div>
-		<p class="morse" id="numberMorse" ></p>
-		<button  class="plybtn" id="ply" onclick="play()" >Play</button>
-		<p id="mdisp" class="mdisplay" style="border: black;"></p>
-		<p class="selectmorse" >Selected Number:</p>
+	
+</div>
 
-		
-		<!--  -->
 
-		<p class="ad">keep audio on!!
+<div class="simsubscreen" id="canvas2" name="canvas2" style="visibility:hidden;">
+		<strong class="incanvas">STEP</strong>
+		<span class="circlebg">&nbsp;2&nbsp;</span>
+		<p class="steptext">&nbsp;Click on the play button to observe the Morse code equivalent to syntax entered.
 		</p>
-		<p class="dm" id="dm1" style="align-items: center;"></p>
-        <!-- morse code  -->
-		<p><span  id="morsedisplay" class="morsedisplay1" > </span></p> 	
+		<br><br><br><br><br><br>
+
 		
-		<button id="hintButton" onclick="hint()" >HINT TO REMEMBER</button>
-		<img id="morseImage" style="visibility: hidden;" src="images/MorseCode.png" alt=""></a>
-		
-		<button id="repeat" class="repeat1" onclick="repeat()" style="visibility:hidden;" ><i class="material-icons">repeat</i>Repeat	</button>
+		<p class="SS-3" id="SS-3"></p>
+
+		<!-- DistressSignals -->
+		<div class="select" id="select1" >
+            <label for="CallInput" class="label-1">Type of Emergency:</label>
+            <select  id="CallInput" onchange="distressChange()">
+				<option value="">select the Emergency</option>
+                <option value="medical">Medical Emergency</option>
+                <option value="fire">Fire Emergency</option>
+                <option value="weather">Severe Weather</option>
+                <option value="aircraft">Aircraft Failure</option>
+             </select>
+        </div>
+
+	
+		<div id="buttons">
+           <button id="morseCode-1" class="morseCode-1" onclick="morseVoice()">Morse Code</button>
+		   <p id="morseCode-2" class="morseCode-2"></p>
+		   <p id="morseCode-3" class="morseCode-3"></p>
+		   <button id="voice-1" class="voice-1" onclick="DistressSignals()">Voice</button>
+		   <p id="voice-2" class="voice-2"></p>
+
+		   
+				
+
+
+		</div>
+
+		<div id="morseExp" >
+			<div id="sos" style="visibility: hidden;" > 
+				<p id="s1" style="left: 100px; " >[SOS]</p>
+				<p id="s2" style="left: 200px;">[SOS]</p>
+				<p id="s3"style="left: 300px;">[SOS]</p>
+			</div>
+
+			<div id="clickHere-1" style="visibility: hidden;" >
+				<p id="example-1">Full Example:</p>
+				<button id="clickExample" onclick="playMorseDE()" >Click Here!</button>
+			</div>
+
+			<div id="deCallsign" style="visibility: hidden;" >
+				<p class="callsign-char" id="de1">[ D</p>
+				<p class="callsign-char" id="de2">E ]</p>
+				<p class="callsign-char" id="de3">[ V</p>
+				<p class="callsign-char" id="de4">U</p>
+				<p class="callsign-char" id="de5">2</p>
+				<p class="callsign-char" id="de6">A</p>
+				<p class="callsign-char" id="de7">B</p>
+				<p class="callsign-char" id="de8">C ]</p>
+			</div>
+		</div>
+<!-- DistressSignals -->
+<!-- urgencySignal -->
+		<div class="select2" id="select2"  style="visibility: hidden;">
+            <label for="UrgencyInput" class="label-1">Select the CallSign:</label>
 			
+            	<select  id="UrgencyInput" onchange="urgencyChange()" >
+				<option value="">select the Emergency</option>
+              	  <option value="medical">Medical Assistance</option>
+              	  <option value="fuel">Fuel Emergency</option>
+              	  <option value="navigation">Navigation Failure</option>
+              	  <option value="Remote">Remote Area Emergency</option>
+             	</select>
+        </div>
+
+		<div id="buttons-2" style="visibility: hidden;">
+			<button id="morseCode-11" class="morseCode-11"  onclick=" morseVoiceUrgency()">Morse Code</button>
+			<p id="morseCode-21" class="morseCode-21"></p>
+			<p id="morseCode-31" class="morseCode-31"></p>
+			<button id="voice-11" class="voice-11" onclick="urgencySignal()" >Voice</button>
+			<p id="voice-21" class="voice-21"></p>
+		 </div>
+
+		 <div id="morseExp1" >
+			<div id="xxx" style="visibility: hidden;" > 
+				<p id="x1"  >XXX</p>
+				<label for="x1" id="x1-1">[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</label>
+				<p id="x2" >XXX</p>
+				<label for="x2" id="x1-2">[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</label>
+				<p id="x3">XXX</p>
+				<label for="x3" id="x1-3">[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</label>
+			</div>
+
+			<div id="clickHere-2" style="visibility: hidden;" >
+				<p id="example-2">Full Example:</p>
+				<button id="clickExample-1" onclick="playMorseUDE()" >Click Here!</button>
+			</div>
+
+			<div id="deCallsign" style="visibility: hidden;" >
+				<p class="callsign-char" id="de1">[ D</p>
+				<p class="callsign-char" id="de2">E ]</p>
+				<p class="callsign-char" id="de3">[ V</p>
+				<p class="callsign-char" id="de4">U</p>
+				<p class="callsign-char" id="de5">2</p>
+				<p class="callsign-char" id="de6">A</p>
+				<p class="callsign-char" id="de7">B</p>
+				<p class="callsign-char" id="de8">C ]</p>
+			</div>
+		</div>
+<!-- urgencySignal -->
+<!-- safetySignal -->
+<div class="select3" id="select3"  style="visibility: hidden;">
+	<label for="safetyInput" class="label-2">Type of Emergency:</label>
+	<select  id="safetyInput" onchange="safteyChange()">
+		<option value="">select the Emergency</option>
+		<option value="wheather">wheather</option>
+		<option value="medical">Medical Emergency</option>
+		<option value="natural">Natural disasters</option>
+		<option value="power">Power Outage</option>
+	 </select>
+</div>
+<div id="ttt" style="visibility: hidden;" > 
+	<p id="t1"  >[TTT]</p>
 	
+	<p id="t2" >[TTT]</p>
 	
-		
-	 </div>
+	<p id="t3">[TTT]</p>
 	
+</div>
+<div id="buttons-3" style="visibility: hidden;">
+	<button id="morseCode-12" class="morseCode-12" onclick="morseVoicesaftey()">Morse Code</button>
+	<p id="morseCode-22" class="morseCode-22"></p>
+	<button id="voice-12" class="voice-12" onclick="safetySignal()">Voice</button>
+	<p id="voice-22" class="voice-22"></p>
+ </div>
+<!-- safetySignal -->
+<!-- testSignal -->
+<div class="select4" id="select4"  style="visibility: hidden;">
+	<label for="testInput" class="label-1">Select the CallSign:</label>
+	<select  id="testInput" onchange="testChange()" >
+		<option value="">select a callsign</option>
+		<option value="VU9ABC">VU9ABC</option>
+		<option value="VU2XYZ">VU2XYZ</option>
+		<option value="VU7PQR">VU7PQR</option>
+		<option value="VU3LMN">VU3LMN</option>
+	 </select>
+	 <p id="qCOde">Note:The Qcode for Test Signal is QSV.</p>
+</div>
+
+<div id="buttons-4" style="visibility: hidden;">
+	<button id="morseCode-13" class="morseCode-13" onclick="morseVoiceTest()">Morse Code</button>
+	<p id="morseCode-23" class="morseCode-23"></p>
+	<button id="voice-13" class="voice-13" onclick="testSignal()" >Voice</button>
+	<p id="voice-23" class="voice-23"></p>
+ </div>
+ <div id="vvv" style="visibility: hidden;" > 
+	<p id="v1"  >[VVV]</p>
+	
+	<p id="v2" >[VVV]</p>
+	
+	<p id="v3">[VVV]</p>
+	
+</div>
+	
+<!-- testSignal -->
+
+
+		 <button id="repeat" onclick="repeat()" style="padding-bottom: 9px">
+			<span class="material-symbols-outlined" style="font-size: 25px;">
+				repeat
+				</span>
+			Repeat</button>
+			
 </div>
 
 
 <img class ="" id="arrow1" style="visibility:hidden;"/>
 
 <div id="copyright"> &copy; 2023-<script>document.write(new Date().getFullYear())</script> SOLVE - The Virtual Lab @ NITK Surathkal, Department of Water Resources & Ocean Engineering</div>
-</div>
+
+
 </body> 
 </html>
