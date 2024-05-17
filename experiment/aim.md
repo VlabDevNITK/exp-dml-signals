@@ -1,1 +1,1 @@
-To acquire the ability to receive and understand Morse code transmissions of numbers.
+To acquire and understand the use of Ham Radio Emergency signals.

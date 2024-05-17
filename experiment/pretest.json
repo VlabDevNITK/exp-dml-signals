@@ -2,174 +2,260 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the fundamental unit of Morse code?",
+      "question": "What does a distress signal indicate?",
       "answers": {
-        "a": "Dashes",
-        "b": "Dots",
-        "c": "Spaces",
-        "d": "Letters"
+        "a": "Routine communication",
+        "b": "Urgent weather update",
+        "c": "Imminent danger and need for immediate assistanc",
+        "d": "Test signal"
       },
       "explanations": {
-        "a": "",
-        "b": "Morse code is composed of two fundamental signal elements, dots (or dits) and dashes (or dahs). Dots are the shorter signals used to represent individual letters or characters.",
-        "c": "",
-        "d": ""
-      },
-      "correctAnswer": "b",
-      "difficulty": "Beginner"
-    },
-    {
-      "question": "In what form can Morse code be transmitted?",
-      "answers": {
-        "a": "Only through telegraph lines",
-        "b": "Through wires, radios, sound, light, and more",
-        "c": "Only through mechanical devices",
-        "d": "Only through drumming"
-      },
-      "explanations": {
-        "a": "",
-        "b": "Morse code can be transmitted through various mediums, including wires (telegraph lines), radios, sound (by tapping or drumming), light (by flashing), and even buzzing (as used in some mechanical devices).",
-        "c": "",
-        "d": ""
-      },
-      "correctAnswer": "b",
-      "difficulty": "Beginner"
-    },
-    {
-      "question": "What was the original purpose of Morse code?",
-      "answers": {
-        "a": "Radio communication",
-        "b": "Emergency signalling",
-        "c": "Long-distance message transmission",
-        "d": "Ham radio operation"
-      },
-      "explanations": {
-        "a": "",
-        "b": "",
-        "c": "The original purpose of Morse code was indeed for long-distance message transmission through telegraph systems, not radio communication or ham radio operation.",
-        "d": ""
+        "a": "Routine communication is generally handled through regular communication channels and is not associated with distress signals.",
+        "b": "Distress signals are not used for weather updates. Weather updates are typically communicated through routine weather channels and broadcasts.",
+        "c": "A distress signal is used to communicate that a vehicle is in severe and immediate danger, requiring urgent assistance.",
+        "d": "A distress signal is not used as a test signal. Test signals are typically conducted during drills or exercises to ensure the proper functioning of communication equipment."
       },
       "correctAnswer": "c",
       "difficulty": "Beginner"
     },
     {
-      "question": "How many times longer is a dash compared to a dot in Morse code?",
+      "question": "In Morse Code, how is the distress call represented?",
       "answers": {
-        "a": "Two times",
-        "b": "Three times",
-        "c": "Four times",
-        "d": "Five times"
+        "a": "XXX",
+        "b": "TTT",
+        "c": "SOS",
+        "d": "VVV"
       },
       "explanations": {
-        "a": "",
-        "b": " A dash in Morse code is three times longer in duration than a dot, not two or four times.",
-        "c": "",
-        "d": ""
+        "a": "\"XXX\" is not a standard Morse Code representation and does not have any specific meaning in Morse Code. ",
+        "b": "\"TTT\" is not a standard Morse Code representation. ",
+        "c": "The distress call in Morse Code is represented by the iconic SOS, repeated three times.",
+        "d": "\"VVV\" is not a distress signal in Morse Code. In Morse Code, \"V\" is represented as \"...-\"."
       },
-      "correctAnswer": "b",
-      "difficulty": "Intermediate"
+      "correctAnswer": "c",
+      "difficulty": "Beginner"
     },
     {
-      "question": "How are letters separated within a word in Morse code?",
+      "question": "Which signal is sent for giving weather warnings?",
       "answers": {
-        "a": "One dot",
-        "b": "One dash",
-        "c": "Three dots",
-        "d": "Seven dot"
+        "a": "Urgency Signal",
+        "b": "Safety Signal",
+        "c": "Test Signal",
+        "d": "Distress Signal"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "Letters within a word in Morse code are separated by a space equal to three dots, not one dot.",
-        "d": ""
+        "a": "The Urgency Signal is used to indicate messages concerning the safety of a ship, aircraft, or person. ",
+        "b": "The safety signal is sent for providing weather warnings, taking priority over routine communications.",
+        "c": "The Test Signal is used during drills or exercises to ensure the proper functioning of communication equipment.",
+        "d": "The Distress Signal is used to indicate that a vehicle or person is in severe and immediate danger, requiring urgent assistance. It is not used for weather warnings. "
+      },
+      "correctAnswer": "b",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What is the Morse Code representation for a test signal?",
+      "answers": {
+        "a": "XXX",
+        "b": "TTT",
+        "c": "VVV",
+        "d": "SOS"
+      },
+      "explanations": {
+        "a": "\"XXX\" is not a standard Morse Code representation and does not have any specific meaning. It is not used as a Morse Code representation for a test signal.",
+        "b": "\"TTT\" is also not a standard Morse Code representation for a test signal.",
+        "c": "The Morse Code representation for a test signal consists of three series of VVV.",
+        "d": "\"SOS\" is a distress signal in Morse Code and is not used to represent a test signal."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "How many repetitions of the group XXX are in the urgency signal in Morse Code?",
+      "answers": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "Four"
+      },
+      "explanations": {
+        "a": "One repetition of \"XXX\" is not the standard representation for the urgency signal in Morse Code.",
+        "b": "Two repetitions of \"XXX\" are also not the standard representation for the urgency signal.",
+        "c": "The urgency signal in Morse Code consists of three repetitions of the group XXX.",
+        "d": "Four repetitions of \"XXX\" are not a standard representation for the urgency signal in Morse Code."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What information is mandatory in a distress message?",
+      "answers": {
+        "a": "Callsign and location only",
+        "b": "Urgency details only",
+        "c": "Callsign, location, type of distress, and more",
+        "d": "Safety instructions only"
+      },
+      "explanations": {
+        "a": "Additional details like the type of distress are essential for a complete distress message.",
+        "b": "A distress message should include more than just urgency details for an effective response.",
+        "c": "A distress message must include essential details such as callsign, exact location, type of distress, and additional information aiding rescue operations.",
+        "d": "A distress message should include more than just urgency details for an effective response."
       },
       "correctAnswer": "c",
       "difficulty": "Intermediate"
     },
     {
-      "question": "Who primarily uses Morse code today for long-distance communication?",
+      "question": "Why is the safety signal important in maritime and aviation communication?",
       "answers": {
-        "a": "Ham radio operators",
-        "b": "Television broadcasters",
-        "c": "Telephone operators",
-        "d": "Internet service providers"
+        "a": "To indicate routine weather updates",
+        "b": "To announce distress situations",
+        "c": "To provide weather warnings",
+        "d": "To test communication equipment"
       },
       "explanations": {
-        "a": "Ham radio operators commonly use Morse code for long-distance communication due to its efficiency and effectiveness in low-bandwidth conditions.",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Routine weather updates are typically conveyed through standard weather channels and broadcasts. ",
+        "b": "Distress situations are indicated by distress signals, not safety signals.",
+        "c": "The safety signal is specifically used for issuing weather warnings, ensuring enhanced safety measures.",
+        "d": "The testing of communication equipment is usually done using dedicated test signals or procedures."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "When is a test signal typically sent and for how long?",
+      "answers": {
+        "a": "Anytime, lasting up to 1 minute",
+        "b": "Not specified",
+        "c": "For equipment calibration, lasting no more than 30 seconds",
+        "d": "During distress situations only"
+      },
+      "explanations": {
+        "a": "Sending test signals anytime and lasting up to 1 minute is not a common practice.",
+        "b": "While there might not be strict universal specifications, test signals are generally sent during specific maintenance or calibration periods. ",
+        "c": "Test signals are sent for equipment calibration and should not last more than 30 seconds.",
+        "d": "Test signals are not intended for use during distress situations. Distress situations require the use of distress signals to communicate urgent danger."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What is the Q code associated with sending a test signal?",
+      "answers": {
+        "a": "QSV",
+        "b": "QUD",
+        "c": "QRT",
+        "d": "QTH"
+      },
+      "explanations": {
+        "a": "The Q code for sending a test signal is QSV.",
+        "b": "QUD is not associated with sending a test signal.",
+        "c": "QRT stands for \"I am closing down my station.\" It is not associated with sending a test signal.",
+        "d": "QTH is associated with the question \"What is your location?\" It is not related to sending a test signal"
       },
       "correctAnswer": "a",
       "difficulty": "Intermediate"
     },
     {
-      "question": "How is a Morse code word separated from another word?",
+      "question": "In voice communication, what term is used to pronounce the urgency signal followed by the urgency message?",
       "answers": {
-        "a": "One space equal to a dot",
-        "b": "Two spaces equal to a dot",
-        "c": "Three spaces equal to a dash",
-        "d": "spaces equal to seven dots"
+        "a": "PAN PAN",
+        "b": "SECURITE",
+        "c": "MAYDAY  ",
+        "d": "MAYDAY SECURITE"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "In Morse code, words are separated by a space equal to seven dots. This longer space helps distinguish between individual words."
+        "a": "In voice communication, the term \"PAN PAN\" is used to pronounce the urgency signal followed by the urgency message.",
+        "b": "\"SECURITE\" is used to pronounce the safety signal followed by safety-related messages.",
+        "c": "\"MAYDAY\" is used to pronounce the distress signal followed by the distress message. ",
+        "d": "While \"MAYDAY\" is associated with distress signals, adding \"SECURITE\" is not a standard practice. "
       },
-      "correctAnswer": "d",
+      "correctAnswer": "a",
       "difficulty": "Intermediate"
     },
     {
-        "question": "Which of the following is NOT mentioned as a medium for transmitting Morse code?",
-        "answers": {
-          "a": "Sound",
-          "b": "Light",
-          "c": "Telegraph lines",
-          "d": "Printing"
-        },
-        "explanations": {
-          "a": "",
-          "b": "",
-          "c": "",
-          "d": "Printing is not mentioned as a medium for transmitting Morse code in the provided information."
-        },
-        "correctAnswer": "d",
-        "difficulty": "Advanced"
+      "question": "What is the role of the safety signal in maritime communication?",
+      "answers": {
+        "a": "To announce routine updates",
+        "b": "To test communication equipment",
+        "c": "To issue weather warnings",
+        "d": "To indicate distress situations"
       },
-      {
-        "question": "What is the purpose of the short silence following each dot or dash in Morse code?",
-        "answers": {
-          "a": "To confuse the recipient",
-          "b": "To save energy",
-          "c": "To separate individual letters",
-          "d": "It has no specific purpose"
-        },
-        "explanations": {
-          "a": "",
-          "b": "",
-          "c": "The short silence following each dot or dash in Morse code is used to separate individual letters, making it clear where one letter ends and the next begins.",
-          "d": ""
-        },
-        "correctAnswer": "c",
-        "difficulty": "Advanced"
+      "explanations": {
+        "a": "Routine updates are typically conveyed through standard communication channels and are not specifically associated with the safety signal. ",
+        "b": "Testing communication equipment is usually done with dedicated test signals or procedures. ",
+        "c": "The safety signal in maritime communication is sent for providing weather warnings.",
+        "d": "Distress situations are indicated by distress signals, not safety signals. "
       },
-      {
-        "question": "Why is Morse code still relevant today?",
-        "answers": {
-          "a": "It's used for secure military communication.",
-          "b": "It's a fun hobby for enthusiasts.",
-          "c": "It aids communication for individuals with disabilities.",
-          "d": "It's a required skill for all telegraph operators."
-        },
-        "explanations": {
-          "a": "",
-          "b": "",
-          "c": "Morse code is still used today, especially in technologies and devices designed to assist individuals with disabilities, such as communication devices for those who cannot speak or write conventionally. It provides an efficient and versatile means of communication for such individuals.",
-          "d": ""
-        },
-        "correctAnswer": "c",
-        "difficulty": "Advanced"
-      }
+      "correctAnswer": "c",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Why is it crucial for a distress message to include the callsign, exact location, and type of distress?",
+      "answers": {
+        "a": "To test communication equipment",
+        "b": "To facilitate equipment calibration",
+        "c": "To enable swift and precise rescue operations ",
+        "d": "To prioritize the distress call"
+      },
+      "explanations": {
+        "a": "Testing communication equipment is typically done with dedicated test signals or procedures, not distress messages.",
+        "b": "Equipment calibration is a specific process and is not the primary purpose of a distress message. ",
+        "c": "Including callsign, exact location, and type of distress in a distress message facilitates swift and precise rescue operations.",
+        "d": "While providing accurate information in a distress message is important for prioritizing responses."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Which frequency is designated as the distress frequency in voice communication (Radio Telephony)?",
+      "answers": {
+        "a": " 500 kHz",
+        "b": "2182 kHz",
+        "c": "146 MHz",
+        "d": "8000 kHz"
+      },
+      "explanations": {
+        "a": " 500 kHz was widely used as the international distress frequency in maritime communication, especially for Morse Code transmissions.",
+        "b": "The distress frequency in voice communication (Radio Telephony) is 2182 kHz",
+        "c": "146 MHz is within the VHF (Very High Frequency) band and is commonly used for amateur radio operations. It is not designated as the international distress frequency",
+        "d": "8000 kHz is within the HF (High Frequency) band. While HF frequencies are used for long-distance communication"
+      },
+      "correctAnswer": "b",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What action should stations take upon hearing an urgency signal?",
+      "answers": {
+        "a": "Continue regular communication",
+        "b": "Provide assistance if possible and refrain from interfering with the transmission",
+        "c": "Switch to the safety frequency",
+        "d": "Transmit a distress signal"
+      },
+      "explanations": {
+        "a": "Upon hearing an urgency signal, continuing regular communication without acknowledging or assisting would be inappropriate.",
+        "b": "Stations hearing an urgency signal should provide assistance if possible and avoid interfering with the transmission.",
+        "c": "Urgency signals do not necessarily require a switch to the safety frequency.",
+        "d": "Transmitting a distress signal is not the correct action upon hearing an urgency signal."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "How does the distress call in Morse Code differ from the urgency signal in Morse Code?",
+      "answers": {
+        "a": "Distress call uses SOS, urgency signal uses XXX",
+        "b": "Distress call uses XXX, urgency signal uses SOS",
+        "c": "Distress call uses VVV, urgency signal uses TTT",
+        "d": "Distress call uses SOS, urgency signal uses PAN PAN"
+      },
+      "explanations": {
+        "a": "The distress call in Morse Code is represented by SOS, while the urgency signal uses XXX.",
+        "b": "Distress call uses SOS. XXX is not associated with distress signals.",
+        "c": "Distress call uses SOS, not VVV. TTT is not associated with the urgency signal in Morse Code.",
+        "d": " Distress call uses SOS, not PAN PAN. PAN PAN is used in voice communication for urgency, not in Morse Code."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Advanced"
+    }
+    
   ]
 }

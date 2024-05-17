@@ -7,20 +7,19 @@ Mention about only the important references -->
   </tr>
   <tr style="background-color: transparent;">
   <td>
-    1. Morse code translator. Morse Code Translator | Morse Code World. (n.d.).<a href="https://morsecode.world/international/translator.html">https://morsecode.world/international/translator.html</a></br></br>
-    2. Murthy, V. N. S. Principles of soil mechanics and foundation engineering. UBSPD, 2001.</br></br>
-    3. Amateur Station Operator’s Certificate Examination, - niar.org. (n.d.).
-    <br>&nbsp;&nbsp;&nbsp;<a href="https://niar.org/downloads/Study-Manual-General-Grade-22.pdf"> https://niar.org/downloads/Study-Manual-General-Grade-22.pdf</a><br>
-     &nbsp;&nbsp;&nbsp;<a href="https://www.niar.org/downloads/Study-Manual-Restricted-Grade-22.pdf">https://www.niar.org/downloads/Study-Manual-Restricted-Grade-22.pdf</a></br></br>
-    4. Modi, P. N. Soil mechanics and foundation engineering. Rajsons Publications Pvt. Ltd., 2010.</td>
+    1. Distress signal wikipedia:<a href="https://en.wikipedia.org/wiki/Distress_signal">https://en.wikipedia.org/wiki/Distress_signal</a></br></br>
+    2. Morse Code translator:<a href="https://morsecode.world/international/translator.html">https://morsecode.world/international/translator.html</a></br></br>
+    3. Amateur Station Operator’s Certificate Examination, - niar.org. (n.d.).<br> 
+    	 &nbsp;&nbsp;&nbsp; <a href="https://niar.org/downloads/Study-Manual-General-Grade-22.pdf">https://niar.org/downloads/Study-Manual-General-Grade-22.pdf</a> <br>
+      &nbsp;&nbsp;&nbsp; <a href="https://www.niar.org/downloads/Study-Manual-Restricted-Grade-22.pdf">https://www.niar.org/downloads/Study-Manual-Restricted-Grade-22.pdf</a>
+</br></br>
+    4.Distress and safety communications :<a href="https://life.itu.int/radioclub/rr/chapt-7.pdf">https://life.itu.int/radioclub/rr/chapt-7.pdf</td>
     <td>Developer : Dr. Pruthviraj U | NITK</br></br>
     Contributors :
     <ul style="list-style-type: none;">
-      <li></li>
       <li>Varun | NITK</li>
-      <li>Hasan Shifan | MITE</li>
       <li>Anusha B Salian | NITK</li>
-      <li>shradha shetty | NITK</li>
+      <li>Shradha shetty | NITK</li>
     </ul></td>
   </tr>
 </table>

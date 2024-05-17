@@ -1,138 +1,223 @@
- {
+{
   "version": 2.0,
   "questions": [
     {
-      "question": "Which Morse code sequence is used for the number 0?",
+      "question": "In voice communication, what term is pronounced three times in a distress call?",
       "answers": {
-        "a": ".-...",
-        "b": "-..--",
-        "c": "..-...",
-        "d": "-----"
+        "a": "PAN PAN",
+        "b": "SECURITE",
+        "c": "MAYDAY",
+        "d": "SOS"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "In Morse code, each numeral is represented by a unique combination of dots (.) and dashes (-). The Morse code sequence for the number 0 is \"-----.\""
+        "a": "\"PAN PAN\" is pronounced three times in voice communication to indicate an urgency signal and message, not a distress call.",
+        "b": "\"SECURITE\" is pronounced in voice communication to indicate a safety signal and message, not a distress call. ",
+        "c": "In voice communication, a distress call is pronounced as \"MAYDAY,\" repeated three times.",
+        "d": "\"SOS\" is not typically pronounced three times in voice communication for a distress call."
+      },
+      "correctAnswer": "C",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "In practical terms, what does the Q code QSV signify during communication?",
+      "answers": {
+        "a": "Distress signal",
+        "b": "Urgency signal",
+        "c": "Safety signal",
+        "d": "Test signal"
+      },
+      "explanations": {
+        "a": "Q codes related to distress signals often include the term \"MAYDAY\" (e.g., QRT MAYDAY). QSV is not associated with distress signals.",
+        "b": "Q codes related to urgency signals may involve terms like \"PAN PAN\" (e.g., QRX PAN PAN). QSV is specifically associated with test signals, not urgency signals.",
+        "c": "Q codes related to safety signals might include terms like \"SECURITE\" (e.g., QRK SECURITE). QSV is specifically associated with test signals, not safety signals.",
+        "d": "The Q code QSV signifies a test signal, which is used for the adjustment of transmitters or receivers during practical communication."
       },
       "correctAnswer": "d",
       "difficulty": "Beginner"
     },
     {
-      "question": "Morse code for the number 2 is:",
+      "question": "What is the callsign used in the simulation?",
       "answers": {
-        "a": "..---",
-        "b": "-....",
-        "c": ".-..-",
-        "d": "--.-"
+        "a": "VU8ZXS",
+        "b": "VU2ABC",
+        "c": "VU9VNC",
+        "d": "VX2ABC"
       },
       "explanations": {
-        "a": "For the number 2, the Morse code is \"..---\"",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "correctAnswer": "a",
-      "difficulty": "Beginner"
-    },
-    {
-      "question": "Which Morse code character represents the number 7?",
-      "answers": {
-        "a": "-.-.-",
-        "b": "--...",
-        "c": ".-..-",
-        "d": "..---"
-      },
-      "explanations": {
-        "a": "",
-        "b": "For the number 7, the Morse code is \"--...\"",
-        "c": "",
-        "d": ""
+        "a": "This callsign is not mentioned as the designated callsign in the simulation.",
+        "b": "Callsigns serve as unique identifiers for stations, and in this scenario, VU2ABC is the designated callsign being used.",
+        "c": "This callsign is not mentioned as the designated callsign in the simulation.",
+        "d": "This callsign is not mentioned as the designated callsign in the simulation."
       },
       "correctAnswer": "b",
       "difficulty": "Beginner"
     },
     {
-      "question": "What Morse code symbol corresponds to the number 99?",
+      "question": "what is the Morse Code representation for a distress call?",
       "answers": {
-        "a": ".----",
-        "b": "-..-  -..-",
-        "c": "----. ----.",
-        "d": "-.-.- -..-"
+        "a": "PAN PAN",
+        "b": "VVV",
+        "c": "SOS",
+        "d": "XXX"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "For the number 99, the Morse code is \"----. ----.\"",
-        "d": ""
+        "a": "\"PAN PAN\" is not a Morse Code representation. It is a term used in voice communication to indicate an urgency signal.",
+        "b": "\"VVV\" is not a Morse Code representation for a distress call. It is associated with test signals in Morse Code.",
+        "c": "The Morse Code representation for a distress call in maritime communication is the iconic SOS.",
+        "d": "\"XXX\" is not a Morse Code representation for a distress call. It does not have a specific meaning in Morse Code related to distress signaling."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What term is pronounced in voice communication when issuing a safety signal ?",
+      "answers": {
+        "a": "PAN PAN",
+        "b": "SECURITE",
+        "c": "MAYDAY",
+        "d": "VVV"
+      },
+      "explanations": {
+        "a": "\"PAN PAN\" is pronounced in voice communication to indicate an urgency signal.",
+        "b": "In voice communication, the term \"SECURITE\" is pronounced when issuing a safety signal.",
+        "c": "\"MAYDAY\" is pronounced in voice communication to indicate a distress call. ",
+        "d": "\"VVV\" is associated with test signals in voice communication. It is not used for safety, urgency, or distress signaling."
+      },
+      "correctAnswer": "",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What type of distress emergency is indicated when there is a fire onboard a vessel and immediate action is required to control and extinguish the fire?",
+      "answers": {
+        "a": "Flooding emergency",
+        "b": "Man overboard emergency",
+        "c": "Abandoning ship emergency",
+        "d": "Fire emergency"
+      },
+      "explanations": {
+        "a": "A flooding emergency is declared when there is a significant ingress of water into a vessel, and immediate action is required to control and mitigate the flooding.",
+        "b": "A man overboard emergency is declared when a person falls overboard, and immediate action is taken to rescue and recover the individual from the water.",
+        "c": "An abandoning ship emergency is declared when the vessel is in imminent danger.",
+        "d": "A fire emergency is indicated when there is a fire onboard a vessel, requiring immediate action to control and extinguish the fire."
+      },
+      "correctAnswer": "d",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What distress emergency involves a threat to the safety of individuals onboard due to a sudden medical issue or injury?",
+      "answers": {
+        "a": "Fire emergency",
+        "b": "Man overboard emergency",
+        "c": "Medical emergency",
+        "d": "Flooding emergency"
+      },
+      "explanations": {
+        "a": "A fire emergency is declared when there is a fire onboard, and immediate action is required to control and extinguish the fire.",
+        "b": "A man overboard emergency is declared when a person falls overboard, and immediate action is taken to rescue and recover the individual from the water.",
+        "c": "A medical emergency involves a threat to the safety of individuals onboard due to a sudden medical issue or injury.",
+        "d": "A flooding emergency is declared when there is a significant ingress of water into a vessel, and immediate action is required to control and mitigate the flooding."
       },
       "correctAnswer": "c",
       "difficulty": "Intermediate"
     },
     {
-      "question": "What is the Morse code representation for the number 57?",
+      "question": "What type of safety emergency is declared when there is a need to issue weather warnings to nearby vessels or aircraft?",
       "answers": {
-        "a": "-....",
-        "b": ".....",
-        "c": ".....--...",
-        "d": "-....."
+        "a": "Medical safety emergency",
+        "b": "Weather safety emergency",
+        "c": "Fire safety emergency",
+        "d": "Collision avoidance safety emergency"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "For the number 57, the Morse code is \".....--...\"",
-        "d": ""
+        "a": "A medical safety emergency is declared when there is a threat to the safety of individuals onboard due to a sudden medical issue or injury.",
+        "b": "A weather safety emergency is declared to issue weather warnings and ensure the safety of nearby vessels or aircraft.",
+        "c": "A fire safety emergency is declared when there is a fire onboard, and immediate action is required to control and extinguish the fire.",
+        "d": "Collision avoidance safety emergency is not a standard term."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "Intermediate"
     },
     {
-      "question": "Write the Morse code for the number 09.",
+      "question": "what type of safety emergency involves the communication of urgent messages related to power outage?",
       "answers": {
-        "a": "----- --...",
-        "b": ".---- .....-",
-        "c": "---..",
-        "d": ".....-"
+        "a": "Navigation safety emergency",
+        "b": "Power outage safety emergency",
+        "c": "Medical safety emergency",
+        "d": "Weather safety emergency"
       },
       "explanations": {
-        "a": "For the number 09, the Morse code is \"----- --...\"",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "A navigation safety emergency typically involves urgent messages related to navigational hazards, course corrections, or other safety-related concerns during navigation.",
+        "b": "A power outage safety emergency involves the communication of urgent messages related to a sudden loss of power onboard and the need for immediate safety measures. ",
+        "c": "A medical safety emergency involves urgent messages related to a sudden medical issue or injury onboard, requiring immediate attention and potential medical assistance.",
+        "d": "A weather safety emergency is declared to issue weather warnings and ensure the safety of nearby vessels or aircraft due to adverse weather conditions."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "Intermediate"
     },
     {
-      "question": "Translate the following Morse code sequence into numbers: \"...-- ...-- ...--\"",
+      "question": "What is the Morse code representation for a distress signal used in maritime communication?",
       "answers": {
-        "a": "112",
-        "b": "222",
-        "c": "333",
-        "d": "444"
+        "a": "- - -",
+        "b": "...---...",
+        "c": " ...- ...-",
+        "d": "-..-..-.."
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "The complete translation is \"333,\" and option 'b' corresponds to this sequence.",
-        "d": ""
+        "a": "The Morse code representation \"- - -\" does not correspond to a distress signal. ",
+        "b": "The Morse code representation for a distress signal in maritime communication is \"...---...\"",
+        "c": "The Morse code representation \"...- ...-\" also does not correspond to a distress signal. ",
+        "d": "The Morse code representation \"-..-..-..\" does not correspond to a distress signal."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "Advanced"
     },
     {
-      "question": "Decode this Morse code number: \"----. ---.. .---- ..---\"",
+      "question": "In Morse Code, what sequence represents an urgency signal used in voice communication during maritime distress situations?",
       "answers": {
-        "a": "9128",
-        "b": "1928",
-        "c": "9281",
-        "d": "9812"
+        "a": "-..--..--..-",
+        "b": "- - -",
+        "c": "-..-..-..",
+        "d": " - - "
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": " The correct decoding is \"9812\" and option 'd' (\"9812\") is the accurate representation of the Morse code."
+        "a": "In Morse Code, the sequence \"-..--..--..-\" represents an urgency signal in voice communication during maritime distress situations.",
+        "b": "The Morse code representation \"- - -\" corresponds to the letter \"O\" and is not specifically used as an urgency signal.",
+        "c": "The Morse code representation \"-..-..-..\" does not correspond to an urgency signal.",
+        "d": "The Morse code representation \"- -\" corresponds to the letter \"T\" and is not specifically used as an urgency signal "
+      },
+      "correctAnswer": "a",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the Morse code representation for a safety signal used in aviation communication?",
+      "answers": {
+        "a": "...",
+        "b": ".--",
+        "c": "-..",
+        "d": "---"
+      },
+      "explanations": {
+        "a": "The Morse code representation \"...\" corresponds to the letter \"S\" and is not specifically used as a safety signal in aviation communication.",
+        "b": "The Morse code representation \".--\" corresponds to the letter \"W\" and is not specifically used as a safety signal in aviation communication.",
+        "c": "The Morse code representation \"-..\" corresponds to the letter \"D\" and is not specifically used as a safety signal in aviation communication.",
+        "d": "The Morse code representation for a safety signal in aviation communication is \"---\"."
+      },
+      "correctAnswer": "d",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "In Morse Code, what sequence represents a Test signal used in maritime communication?",
+      "answers": {
+        "a": "-..-..-..",
+        "b": "...-",
+        "c": "-.-.-",
+        "d": "...- ...- ...-"
+      },
+      "explanations": {
+        "a": "The Morse code representation \"-..-..-..\" does not correspond to a Test signal.",
+        "b": "The Morse code representation \"...-\" corresponds to the letter \"V\" and is not specifically used as a Test signal in maritime communication.",
+        "c": "The Morse code representation \"-.-.-\" is used as the Morse Code representation for the letter \"C\" and is not specifically used as a Test signal in maritime communication.",
+        "d": " In Morse Code, the sequence \"...- ...- ...-\" represents a Test signal used in maritime communication."
       },
       "correctAnswer": "d",
       "difficulty": "Advanced"

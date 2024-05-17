@@ -41,7 +41,6 @@ span.frac > span {display: none;}
 	padding-top:2px;
 	margin:0px;
 }	
-
 .simsubscreen
 {
 	position:absolute;
@@ -73,7 +72,6 @@ span.frac > span {display: none;}
 	text-align:center;
 	background:#000
 }
-
 .steptext
 {
 	display:inline;
@@ -86,35 +84,117 @@ span.frac > span {display: none;}
 	top: 580px;
 	font-size:12px
 }
-select{
-	width:150px;
+
+#repeat{
+	position: absolute;
+	left:330px;
+	top: 28rem;
+	width:60px;
+	height:55px;
+	font-weight: 600;
+	border: #000 2px solid;
+	border-radius: 100%;
+	background: #ede8e8;
+
+   text-decoration: #fff;
+    cursor: pointer;
+  }
+  select{
+	width: auto;
+  }
+#CallInput{
+	/* width:auto; */
 	/* font-weight: bold; */
 	position:absolute;
-	left:310px;
+	left:450px;
 	top: 96px;
-	scroll-padding-left: 2%;
-	/* padding-bottom: 2%; */
-	scroll-padding-top: 2%;
 	font-weight: 600;
 	font-size: 15px;
+	border: #000 1px solid;
 	cursor: pointer;
-	padding: 5px;
-	padding-top: 7px;
-	padding-bottom: 7px;
+	 padding: 5px;
+
+}
+#CallInput:disabled{
+color: inherit;
+opacity: 1;
+background-color: #fff;
+border: #000 1px solid;
+cursor: not-allowed;
+
+}
+#UrgencyInput{
+	position:absolute;
+	left:450px;
+	top: 96px;
+	font-weight: 600;
+	font-size: 15px;
+	border: #000 1px solid;
+
+	cursor: pointer;
+	 padding: 5px;
+}
+#UrgencyInput:disabled{
+	color: inherit;
+	opacity: 1;
+	background-color: #fff;
+	border: #000 1px solid;
+	cursor: not-allowed;
+	
+	}
+#safetyInput{
+	position:absolute;
+	left:427px;
+	top: 96px;
+	font-weight: 600;
+	font-size: 15px;
+	border: #000 1px solid;
+
+	cursor: pointer;
+	 padding: 5px;
+}
+#safetyInput:disabled{
+	color: inherit;
+	opacity: 1;
+	background-color: #fff;
+	border: #000 1px solid;
+	cursor: not-allowed;
+	
+	}
+#testInput{
+	position:absolute;
+	left:450px;
+	top: 96px;
+	font-weight: 600;
+	font-size: 15px;
+	border: #000 1px solid;
+	cursor: pointer;
+	 padding: 5px;
+}
+#testInput:disabled{
+	color: inherit;
+	opacity: 1;
+	background-color: #fff;
+	border: #000 1px solid;
+	cursor: not-allowed;
+	
+	}
+.label-1{
+	position:absolute;
+	left:290px;
+	top: 100px;
+}
+.label-2{
+	position:absolute;
+	left:270px;
+	top: 100px;
 }
 .button{
 	
 	position: absolute;
-	left:245px;
-	top: 190px;
-	border: #000 1px solid;
+	left:240px;
+	top: 160px;
 	cursor: pointer;
-}
-.button:disabled{
-	color: inherit;
-	opacity: 1;
-	border: #000 1px solid;
-
 }
 label{
 	position: absolute;
@@ -122,177 +202,574 @@ label{
 	top: 103px;
 	font-size:15px
 }
-.plybtn{
-	position: absolute;
-	left:300px;
-	top: 150px;
-	width:70px;
-	height:65px;
-	border-radius:100%;
-	border-color: #000;
-	color: #000;
-	padding-top:30px;
-	background-color: rgb(219, 221, 221);
-	cursor: pointer;
-	font-weight: 600;
+#container{
+	position: relative;
+	left: 8.65rem;
+	top:3rem;
+	width: 300px;
+	height: 200px;
+	background-color: #fafafa; /* Change this to your desired background color */
+	border: #000 solid 1px;
+	border-radius: 5px;
+	/* box-shadow: 8px 15px 6px 2px rgba(0, 0, 0, 0.1); Adjust the values for the shadow effect */
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+#container.visible {
+	opacity: 1;
+  }
+.button-1{
+position: absolute;
+left: 30px;
+top: 25px;
+width: 90px;
+height: 50px;
+border: #000 solid 2px;
+background-color: #eaeaea;
+border-radius: 5px;
+color: #000;
+cursor: pointer;
+text-align: center;
+padding: 3px;
 
 }
-.plybtn::before{
-	position: absolute;
-	content: '';
-	border-top: transparent 10px solid;
-	border-bottom: transparent 10px solid;
-	border-left: #000 15px solid;
-	top:45%;
-	left:50%;
-	transform: translate(-40%,-50%);
-	cursor: pointer;
+.button-2{
+position: absolute;
+left: 170px;
+top: 25px;
+width: 90px;
+height: 50px;
+border: #000 solid 2px;
+background-color: #eaeaea;
+border-radius: 5px;
+cursor: pointer;
+text-align: center;
+padding: 3px;
+
 
 }
-.plybtn:disabled{
-	position: absolute;
-	left:300px;
-	top: 150px;
-	width:70px;
-	height:65px;
-	border-radius:100%;
-	border-color: #000;
-	color: #000;
-	padding-top:30px;
-	font-weight: 600;
+.button-3{
+position: absolute;
+left: 30px;
+top: 115px;
+width: 90px;
+height: 50px;
+border: #000 solid 2px;
+background-color: #eaeaea;
+border-radius: 5px;
+cursor: pointer;
+text-align: center;
+padding: 3px;
+
+
 }
-p.ad{
-	position: absolute;
-	left:275px;
-	top: 230px;
-	font-size: 14px;
+.button-4{
+position: absolute;
+left: 170px;
+top: 115px;
+width: 90px;
+height: 50px;
+border: #000 solid 2px;
+background-color: #eaeaea;
+border-radius: 5px;
+cursor: pointer;
+text-align: center;
+padding: 3px;
+
+
 }
-p.morse{
-	position: absolute;
-	left:388px;
-	top: 69px;
-	/* font-weight: 600; */
-	/* font-size: 20px; */
-	padding: 3px;
-	padding-left: 7px;
-	padding-right: 7px;
-	
-	
-	
+.SS-1{
+position: absolute;
+left: 60px;
+top: 75px;
 }
-p.selectmorse{
-	position: absolute;
-	left:243px;
-	top: 70px;
+.SS-2{
+position: absolute;
+left: 200px;
+top: 68px;
+
+padding: 10px;
+padding-left: 20px;
+padding-right: 20px;
+border: #000 1px solid;
+text-align: center;
+/* padding-top: 20px; */
+/* padding-bottom: -20px; */
 }
-p.dm{
+.submit{
 	position: absolute;
-	left: 100px;
-	top: 135px;
-    width: 60px;
-	height:40px;
-	border-style: solid;
-	border-width: medium;
-	border-radius: 10px;
+	left: 250px;
+	top: 140px;
+
+}
+.SS-3{
+	position: absolute;
+	left: 75px;
+	top: 75px;
+
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: #000 1px solid;
 	text-align: center;
-    text-decoration: solid;
-	font-style: bold;
-	border: 2px solid black;
-	font-size: larger;
-	padding-top: 2%;
-	padding-bottom: -2%;
-	padding-left: -2%;
-   padding-right: -2%;
-   
-   font-weight: 600;
-	font-size: 20px;
+	
+	}
+/* distress signal css */
+.morseCode-1{
+position: absolute;
+left: 75px;
+top: 170px;
+padding: 15px;
+width: 130px;
+border: #000 1px solid;
+border-radius: 5px;
+cursor: pointer;
+}
+.morseCode-1:disabled{
+	color: inherit;
+	opacity: 1;
+	border: #000 1px solid;
+	background-color: #eaeaea;
+	cursor: not-allowed;
+}
+.voice-1{
+	position: absolute;
+	left: 250px;
+	top: 170px;
+	padding: 15px;
+	width: 130px;
+	border: #000 1px solid;
+	background-color: #eaeaea;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.voice-1:disabled{
+	color: inherit;
+	opacity: 1;
+	border: #000 1px solid;
+	background-color: #eaeaea;
+	cursor: not-allowed;
+
 
 }
-
-
-.morsedisplay1{
+.morseCode-2 {
 	position: absolute;
-	left: 490px;
-	top: 135px;
-   
-	font-weight: 700;
-	font-size: 58px;
+	left: 75px;
+	top: 220px;
+	/* border: rgb(64, 0, 202) 5px solid; */
+	font-size: 190%;
+	font-weight: 600;
+	font-family: monospace;
+	
+}
+.morseCode-3 {
+	position: absolute;
+	left: 80px;
+	top: 310px;
+	/* border: rgb(64, 0, 202) 5px solid; */
+	font-size: 190%;
+	font-weight: 600;
 	font-family: monospace;
 }
-.button{
-	display: block; 
-	margin-left: 55px;
-	margin-top: 170px;
-}
-.repeat1{
+.voice-2{
 	position: absolute;
-	top:410px;
-	left:300px;
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-	background-color:rgb(224, 223, 223);
-	color:rgb(32, 32, 32);
-	margin-left: -5px;
-	padding: 8px 8px;
-	font-size:10px;
-	
-	
+	left: 75px;
+	top: 260px;
+	/* border: pink 5px solid; */
+	font-size: large;
+	font-weight: 500;
 }
-.warning{
-	position: absolute;
-	left:150px;
-	top: 280px;
-	font-size:14px
+#sos{
+	display: flex;
+	margin-top: 14%;
+	margin-left: 8.5%;
 }
-.pd{
-	/* margin: 40px; */
-	padding-right: 35px;
+#sos p {
+    margin: 0 43px; 
+	font-weight: 600;
+	/* Remove default paragraph margin */
 }
-.pd1{
-	/* margin: 40px; */
-	padding-right: 35px;
+#deCallsign {
+	position: relative;
 }
 
-.opDoubledash{
-	font-weight: 600;
-	font-size: 15px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+.callsign-char {
+	position: absolute;
+	top: -20px;
+	
 }
 
-.repeatname{
-	font-family:Georgia, 'Times New Roman', Times, serif;
-	font-size: small;
+#de1 { left: 90px; }
+#de2 { left: 130px; }
+#de3 { left: 175px; }
+#de4 { left: 240px; }
+#de5 { left: 300px; }
+#de6 { left: 370px; }
+#de7 { left: 430px; }
+#de8 { left: 490px; }
+
+/* #example-1{
 }
-#numberInput{
+#clickExample{
+	
+} */
+#clickHere-1{
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	margin-left: 80px;
+}
+#clickExample{
+	padding:3px;
+	cursor: pointer;
+	border: black 1px solid;
+	
+}
+#clickExample:disabled{
+	color: inherit;
+	opacity: 1;
+	border: black 1px solid;
+
+}
+
+/* distress signal css end */
+/* urgency signal css */
+
+.morseCode-11{
 	position: absolute;
-	left: 24rem;
-	top: 11.25em;
-}
-#slider{
-	width: 39%;
+	left: 75px;
+	top: 170px;
+	padding: 15px;
+	width: 130px;
+border: #000 1px solid;
+
+	border-radius: 5px;
+	cursor: pointer;
+	}
+	.morseCode-11:disabled{
+		color: inherit;
+		opacity: 1;
+		border: #000 1px solid;
+		background-color: #eaeaea;
+		cursor: not-allowed;
+	}
+	.voice-11{
+		position: absolute;
+		left: 250px;
+	top: 170px;
+	padding: 15px;
+		width: 130px;
+		border-radius: 5px;
+		border: #000 1px solid;
+		background-color: #eaeaea;
+		cursor: pointer;
+	}
+	.voice-11:disabled{
+		color: inherit;
+		opacity: 1;
+		border: #000 1px solid;
+		background-color: #eaeaea;
+		cursor: not-allowed;
+	
+	}
+	.morseCode-21{
+		position: absolute;
+		left: 75px;
+		top: 220px;
+		/* border: rgb(64, 0, 202) 5px solid; */
+		font-size: 190%;
+		font-weight: 600;
+		font-family: monospace;
+	}
+	.voice-21{
+		position: absolute;
+	left: 75px;
+	top: 260px;
+	
+
+	}
+	#xxx{
+		display: flex;
+		margin-top: 14%;
+		margin-left: 9.5%;
+	}
+	#xxx #x1 {
+		position: absolute;
+		left: 135px;
+		top: 210px;
+		font-weight: 600;
+
+
+	}
+	#xxx #x1-1{
+		position: absolute;
+		top: 250px;
+		left: 70px;
+		
+	}
+	#xxx #x2 {
+		position: absolute;
+		left: 320px;
+		top: 210px;
+		font-weight: 600;
+
+
+	}
+	#xxx #x1-2{
+		position: absolute;
+		top: 250px;
+		left: 246px;
+		
+	}
+	#xxx #x3 {
+		position: absolute;
+		left: 490px;
+		top: 210px;
+		font-weight: 600;
+
+
+	}
+	#xxx #x1-3{
+		position: absolute;
+		top: 250px;
+		left: 422px;
+		
+	}
+	#clickHere-2{
+		display: flex;
+		align-items: center;
+		margin-top: 20px;
+		margin-left: 80px;
+		position: absolute;
+		top: 245px;
+	}
+	#clickExample-1{
+		padding:3px;
+		cursor: pointer;
+		border: black 1px solid;
+
+		
+	}
+	#clickExample-1:disabled{
+		color: inherit;
+		opacity: 1;
+		border: black 1px solid;
+	
+	}
+	
+/* urgency signal css end */
+/* safety signal css */
+.morseCode-12{
 	position: absolute;
-	left: 185px;
-	top:15rem
-}
-.selectNumber{
+	left: 75px;
+top: 170px;
+padding: 15px;
+	width: 130px;
+	border: #000 1px solid;
+	border-radius: 5px;
+	cursor: pointer;
+	}
+	.morseCode-12:disabled{
+		color: inherit;
+		opacity: 1;
+		border: #000 1px solid;
+		background-color: #eaeaea;
+		cursor: not-allowed;
+	}
+	.voice-12{
+		position: absolute;
+		left: 250px;
+	top: 170px;
+	padding: 15px;
+		width: 130px;
+		border-radius: 5px;
+		border: #000 1px solid;
+		background-color: #eaeaea;
+		cursor: pointer;
+	}
+	.voice-12:disabled{
+		color: inherit;
+		opacity: 1;
+		border: #000 1px solid;
+		background-color: #eaeaea;
+		cursor: not-allowed;
+
+	
+	}
+	.morseCode-22{
+		position: absolute;
+		left: 80px;
+		top: 208px;
+	
+		/* width: 210px; */
+		/* size: 150%; */
+		/* border: rgb(64, 0, 202) 5px solid; */
+		font-size: 400%;
+		font-weight: 600;
+		font-family: monospace;
+		
+	}
+	.voice-22{
+		position: absolute;
+		left: 75px;
+		top: 260px;
+	
+
+	}
+	#ttt{
+		display: flex;
+		margin-top: 14%;
+		margin-left: 9.5%;
+	}
+	#ttt #t1 {
+		position: absolute;
+		left: 100px;
+		top: 240px;
+		font-weight: 600;
+
+
+	}
+	#ttt #t1-1{
+		position: absolute;
+		top: 260px;
+		left: 70px;
+		
+	}
+	#ttt #t2 {
+		position: absolute;
+		left: 218px;
+		top: 240px;
+		font-weight: 600;
+
+
+	}
+	#ttt #t1-2{
+		position: absolute;
+		top: 250px;
+		left: 246px;
+		
+	}
+	#ttt #t3 {
+		position: absolute;
+		left: 330px;
+		top: 240px;
+		font-weight: 600;
+
+
+	}
+	#ttt #t1-3{
+		position: absolute;
+		top: 250px;
+		left: 422px;
+		
+	}
+/* safety signal css */
+/* Test signal css */
+.morseCode-13{
 	position: absolute;
-	top: 150px;
-	left: 235px;
+	left: 75px;
+	top: 170px;
+	padding: 15px;
+	width: 130px;
+	border: #000 1px solid;
+	border-radius: 5px;
+	cursor: pointer;
+	}
+	.morseCode-13:disabled{
+		color: inherit;
+		opacity: 1;
+		border: #000 1px solid;
+		background-color: #eaeaea;
+		cursor: not-allowed;
+	}
+	.voice-13{
+		position: absolute;
+		left: 250px;
+	top: 170px;
+	padding: 15px;
+		width: 130px;
+		border-radius: 5px;
+		border: #000 1px solid;
+		background-color: #eaeaea;
+		cursor: pointer;
+	}
+	.voice-13:disabled{
+		color: inherit;
+		opacity: 1;
+		border: #000 1px solid;
+		background-color: #eaeaea;
+		cursor: not-allowed;
+	
+	}
+	.morseCode-23{
+		position: absolute;
+		left: 75px;
+		top: 250px;
+		/* border: rgb(64, 0, 202) 5px solid; */
+		font-size: 190%;
+		font-weight: 600;
+		font-family: monospace;
+		
+		
+	}
+	.voice-23{
+		position: absolute;
+		left: 75px;
+		top: 260px;
+		
+	}
+	#vvv{
+		display: flex;
+		margin-top: 14%;
+		margin-left: 9.5%;
+	}
+	#vvv #v1 {
+		position: absolute;
+		left: 135px;
+		top: 240px;
+		font-weight: 600;
+
+	}
+	
+	#vvv #v2 {
+		position: absolute;
+		left: 320px;
+		top: 240px;
+		font-weight: 600;
+
+
+	}
+	
+	#vvv #v3 {
+		position: absolute;
+		left: 490px;
+		top: 240px;
+		font-weight: 600;
+
+
+	}
+	#qCOde{
+		position: absolute;
+		left:80px;
+		top: 380px;
+		font-weight: 550;
+	}
+	
+/* Test signal css end*/
+#syntaxS{
+position: absolute;
+top: 80px;
+left: 95px;
 }
-#morseImage{
-	position: absolute;
-	top: 255px;
-	height: 150px;
-	left: 490px;
+#clickHere{
+position: absolute;
+top: 95px;
+left: 250px;
+padding: 5px;
 }
-#hintButton{
-	position: absolute;
-	padding: 10px 10px;
-	top: 320px;
-	left: 257px;
-	border-radius: 8px;
-	font-weight: 600;
-	font-family:  sans-serif;
-}
+.hidden {
+	display: none;
+  }
+
+
