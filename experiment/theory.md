@@ -1,4 +1,3 @@
-### Introduction :
 <p style="text-align: justify;">Emergency signals play a crucial role in maritime and aviation communication, serving to convey critical information about the safety and well-being of vehicles and individuals. These signals are classified into distinct types, each serving a specific purpose.</p>
 
 **Distress Signal:**
