@@ -1,1 +1,1 @@
-To acquire and understand the use of Ham Radio Emergency signals.
+To develop a comprehensive understanding of the use of HAM Radio Emergency signals.
